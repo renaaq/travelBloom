@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <h2 class="logo">TravelBloom</h2>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="travel_recommendation.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" id="searchBar" placeholder="Enter a destination or keyword">
+                <button type="button" id="submitSearch">Search</button>
+                <button type="button" id="clearBtn">Clear</button>
+            </div>
+        </nav>
+        </nav>
+
+
+</header>
+
+
+  <main class="hero">
+  <section class="hero-text">
+    <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+    <p>It encourages exploration of unfamiliar territories…</p>
+    <button type="button">BOOK NOW</button>
+  </section>
+
+  <!-- Aquí, dentro de .hero y al lado del texto, van los resultados -->
+  <section id="resultados" class="tb-resultados-container"></section>
+</main>
+
+
+    <section class="tb-recommendation-section">
+        <h2 class="tb-recommendation-title">Beach Recommendation</h2>
+        <p class="tb-recommendation-text">
+            Discover the breathtaking Playa Blanca, a paradise with crystal clear waters and white sand
+            beaches perfect for relaxation and water sports.
+        </p>
+        <div class="tb-images-container">
+            <img src="playaBlanca.jpg" alt="View of Playa Blanca beach" class="tb-recommendation-img" />
+        </div>
+    </section>
+
+    <section class="tb-recommendation-section">
+        <h2 class="tb-recommendation-title">Temple Recommendation</h2>
+        <p class="tb-recommendation-text">
+            Visit the majestic Temple of Angkor Wat, a stunning historical site showcasing incredible Khmer
+            architecture and rich cultural heritage.
+        </p>
+        <div class="tb-images-container">
+            <img src="ankor.jpeg" alt="Angkor Wat main temple" class="tb-recommendation-img" />
+        </div>
+    </section>
+
+    <section class="tb-recommendation-section">
+        <h2 class="tb-recommendation-title">Country-based Recommendation: Japan</h2>
+        <p class="tb-recommendation-text">
+            Explore Japan’s unique blend of modern technology and ancient traditions, from bustling Tokyo
+            streets to serene Kyoto temples.
+        </p>
+        <div class="tb-images-container">
+            <img src="tokio.jpg" alt="Tokyo city skyline" class="tb-recommendation-img" />
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TravelBloom. All rights reserved.</p>
+    </footer>
+
+    <!-- Tu script JS -->
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
