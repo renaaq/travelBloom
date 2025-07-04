@@ -1,0 +1,167 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY Y FONDO */
+body {
+  font-family: Arial, sans-serif;
+  background: url('pdee.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.search-box {
+    margin-left: 20px;
+}
+
+.search-box input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+/* TÍTULO PRINCIPAL */
+h1 {
+  text-align: center;
+  font-size: 56px;
+  margin: 40px 0 30px 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 128, 128, 0.7);
+  margin-bottom: 20px;
+  color: #f0f0f0;
+  min-height: 60px;
+}
+
+/* PÁRRAFO */
+div > p {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 0 auto 50px auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* SECCIÓN EQUIPO */
+.team-section {
+  max-width: 1000px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+/* Título sección equipo */
+.team-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #000808;
+  text-shadow: 0 0 8px #001518;
+}
+
+/* Contenedor tarjetas equipo */
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+/* Tarjetas individuales */
+.team-card {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 260px;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: default;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.85);
+}
+
+/* Nombre en tarjeta */
+.team-card h3 {
+  color: #00e5ff;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/* Descripción */
+.team-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+  min-height: 60px;
+}
+
+/* Botón pequeño en tarjeta */
+.team-card button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.team-card button:hover {
+  background-color: #303f9f;
+}
+
